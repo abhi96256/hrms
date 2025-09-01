@@ -1,0 +1,85 @@
+# =============================
+# Node / Frontend Dependencies
+# =============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Coverage & Build
+coverage/
+.nyc_output
+.grunt
+bower_components
+build/Release
+jspm_packages/
+.cache
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+.serverless
+.fusebox/
+.dynamodb/
+
+# npm/yarn outputs
+*.tgz
+.yarn-integrity
+.npm
+.node_repl_history
+
+# =============================
+# Laravel Specific
+# =============================
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+/bootstrap/cache/*
+/public/mix-manifest.json
+
+# Environment & Config
+.env
+.env.*          # covers .env.test, .env.local etc
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+.vagrant
+.rr.yaml
+
+# =============================
+# Logs & Temp
+# =============================
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =============================
+# OS / IDE
+# =============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
